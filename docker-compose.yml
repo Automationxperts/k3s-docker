@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   server:
-    image: gcavalcante8808/k3s-docker:latest
+    image: automationexpert/k3s-docker:latest
     build: 
       context: .
       args:
